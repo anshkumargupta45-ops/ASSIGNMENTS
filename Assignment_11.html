@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-11</title>
+</head>
+<body>
+
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessible Page</title>
+</head>
+<body>
+
+  
+  <a href="#main-content">Skip to main content</a>
+
+  <nav aria-label="Main Navigation">
+    <a href="#home">Home</a>
+    &nbsp;
+    <a href="#help">Help</a>
+  </nav>
+
+
+  <main id="main-content">
+    <h1>Accessible Page</h1>
+    <p>
+      <img src="banner.jpg" alt="Decorative banner image" width="200" height="50">
+      <button type="button" aria-label="Close banner">X</button>
+    </p>
+
+    <!-- Search form with label and ARIA label -->
+    <form role="search">
+      <label for="search-input">Search:</label>
+      <input type="text" id="search-input" name="q" aria-label="Search the site">
+    </form>
+
+  </main>
+
+</body>
+</html>
